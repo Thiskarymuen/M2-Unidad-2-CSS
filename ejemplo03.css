@@ -1,0 +1,39 @@
+*{
+    font-size: 20px;
+}
+
+a{
+    font-size: 35px;
+}
+
+
+.container {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    flex-wrap: nowrap;
+    outline: 2px solid #000000;
+    justify-content: space-between;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 50px;
+    color: #ffffff;
+    height: calc(250px - 100px);
+    width: 200px;
+}
+
+.item:first-child{
+    background-color: #ff0000;
+}
+
+.item:nth-child(2){
+    background-color: #0000ff;
+}
+
+.item:last-child{
+    background-color: #00ff00;
+}
